@@ -1,0 +1,159 @@
+﻿body {
+    background-color:#424242;
+}
+#Container {
+    width:867px;
+    margin:auto;
+}
+#Header {
+    background-image: url('Images/Header.jpg');
+    height: 200px;
+    background-repeat: no-repeat;    
+}
+#Footer {
+    background-image: url('Images/Header.jpg');
+    height: 20px;
+    background-repeat: no-repeat;  
+    position:relative;
+    top:-45px;    
+}
+#Content {
+    position:relative;
+    top:2px;   
+    /*height:400px;*/
+    height:100%;
+    background-color:white;
+}
+#TopMenu {
+    float:right;
+    right:50px;
+    position:relative;
+    top:-40px;
+    font-family:Roboto;
+}
+.LabelHeading {
+    font-family:Arial;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+.LabelTopMenu {
+    font-family:Arial;
+    font-size:11px;    
+    color:white;
+    cursor:pointer;
+}
+.LabelTopMenu:hover {
+    font-family:Arial;
+    font-size:11px;    
+    color:white;
+    cursor:pointer;
+    text-decoration:underline;
+}
+.LabelContentHeading {   
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;    
+}
+.LabelContent {   
+    font-family: Roboto;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    color: #666;
+    padding-left: 20px;   
+    cursor:pointer; 
+}
+.LabelContent:hover {   
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 20px;   
+    cursor:pointer; 
+    text-decoration:underline;
+}
+#Heading {
+    position:relative;
+    top:70px;
+    left:40px;    
+}
+
+#Invoice {
+    background-image: url('Images/Card_Blank.png');
+    background-repeat: no-repeat;
+    height:349px;    
+}
+#Admin {
+    background-image: url('Images/Card_Blank.png');
+    background-repeat: no-repeat;
+    height:349px;     
+    position:relative;   
+    top:-349px;
+    left:289px;
+}
+#SmartMeter {
+    background-image: url('Images/Card_Blank.png');
+    background-repeat: no-repeat;
+    height:349px;     
+    position:relative;   
+    top:-698px;
+    left:578px;
+}
+.LabelTitle {
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+#AdminHeading {
+    position:relative;
+    top:-10px;
+    left:20px;
+}
+#AdminIcon {
+    position:relative;
+    top:10px;
+    left:5px;
+}
+#SmartMeterIcon {
+    position:relative;
+    top:10px;
+    left:5px;
+}
+#InvoiceIcon {
+    position:relative;
+    top:10px;
+    left:5px;
+}
+#SmartMeterHeading {
+    position:relative;
+    left:20px;
+    top:-10px;
+}
+#InvoiceHeading {
+    position:relative;
+    left:20px;
+    top:-10px;
+}
+.BreadCrumb {
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    color:blue;    
+    cursor:pointer;
+}
+.BreadCrumb:hover {
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    color:blue;    
+    cursor:pointer;
+    text-decoration:underline;
+}
+.LabelBlackHeading {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+    padding-left: 20px;  
+}
